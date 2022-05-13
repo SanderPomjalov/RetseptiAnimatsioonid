@@ -1,0 +1,59 @@
+body {
+    background-color: bisque;
+}
+
+.header h1 {
+    text-align: center;
+    position: relative;
+    height: 50px;
+    font-family: 'Noto Serif', serif;
+    animation: header;
+    animation-duration: 3s;
+}
+
+@keyframes header {
+    0% {top: -250px}
+    100% {top: 0}
+}
+
+.ingredients {
+    border: 1px solid black ;
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    animation: ingredients;
+    animation-duration: 3s;
+}
+
+@keyframes ingredients {
+    0% {left: -250px;}
+    100% {left: 0;}
+}
+
+.ingredients-table {
+    border: 1px solid black;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;   
+}
+
+.instructions {
+    border: 1px solid;
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    animation: instructions;
+    animation-duration: 3s;
+}
+
+@keyframes instructions {
+    0% {right: -250px;}
+    100% {right: 0px;}
+}
+
+img {
+    border-radius: 8px;
+    margin: 0 auto;
+    width: 300px;
+}
